@@ -24,6 +24,6 @@ NOTE: To execute this program make sure that the packages installed are the same
 Initial Catalog=DatabaseName;User ID=UserName;Password=Password")
 - If you have a named instance of SQL Server, you'll need to add that as well:
 ("Server=localhost\sqlexpress")
--To see the SQL server name->Start->Run->(services.msc)->serach for SQL Server(name of SQL server)
--In NuGet Package Manager Console:(Error: SQL Services not in running state or connection string not in particular format)
+- To see the SQL server name->Start->Run->(services.msc)->serach for SQL Server(name of SQL server)
+- In NuGet Package Manager Console:(Error: SQL Services not in running state or connection string not in particular format)
 Add-Migration "Initial Create"->Update-Database
